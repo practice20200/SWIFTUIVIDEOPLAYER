@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-
 @main
 struct VideoPlayerSwiftUIPracticeApp: App {
     var body: some Scene {
