@@ -13,9 +13,9 @@ struct QueryTag: View {
     
     var body: some View {
         Text(query.rawValue)
+            .font(.caption)
             .bold()
             .foregroundColor(isSelected ? .black: .gray)
-        
             .padding(10)
             .background(.thinMaterial)
             .cornerRadius(10)

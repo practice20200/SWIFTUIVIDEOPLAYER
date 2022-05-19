@@ -6,3 +6,10 @@
 //
 
 import Foundation
+struct ResponseBody: Decodable {
+    var page: Int
+    var perPage: Int
+    var totalResults: Int
+    var url: String
+    var videos: [Video]
+}
